@@ -30,6 +30,10 @@ def home():
 def get_api():
     return jsonify(data)  # Return web frameworks information
 
+@app.route('/apix', methods=['GET'])
+def get_apix():
+    return jsonify(data)  # Return web frameworks informationnm
+
 
 if __name__ == '__main__':
     app.run(debug=True)
