@@ -28,7 +28,7 @@ def home():
 
 @app.route('/api', methods=['GET'])
 def get_api():
-    return jsonify(data)  # Return web frameworks information
+    return jsonify(data)  # Return web frameworks informationn
 
 
 if __name__ == '__main__':
