@@ -26,11 +26,11 @@ def home():
     return "Hello World"
 
 
-@app.route('/api', methods=['GET'])
+@app.route('/api')
 def get_api():
     return jsonify(data)  # Return web frameworks information
 
-@app.route('/apix', methods=['GET'])
+@app.route('/apix')
 def get_apix():
     return jsonify(data)  # Return web frameworks informationnm
 
